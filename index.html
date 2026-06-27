@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emerging Directions in Probabilistic Modeling | Workshop 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">EDPM 2026</a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#topics">Topics</a></li>
+                <li><a href="#speakers">Speakers</a></li>
+                <li><a href="#organizers">Organizers</a></li>
+                <li><a href="#venue">Venue</a></li>
+                <li><a href="#register" class="nav-cta">Register</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <div class="hero-logos">
+                <svg class="logo-flatiron" viewBox="0 0 240 50" xmlns="http://www.w3.org/2000/svg">
+                    <g fill="white">
+                        <path d="M0,5 C0,2 2,0 5,0 L12,0 L12,5 L5,5 L5,45 L12,45 L12,50 L5,50 C2,50 0,48 0,45 Z"/>
+                        <path d="M50,5 C50,2 48,0 45,0 L38,0 L38,5 L45,5 L45,45 L38,45 L38,50 L45,50 C48,50 50,48 50,45 Z"/>
+                        <circle cx="25" cy="25" r="12"/>
+                    </g>
+                    <text x="58" y="23" fill="white" font-family="Inter, sans-serif" font-size="20" font-weight="700" letter-spacing="2">FLATIRON</text>
+                    <text x="58" y="42" fill="white" font-family="Inter, sans-serif" font-size="12" font-weight="400" letter-spacing="4">INSTITUTE</text>
+                </svg>
+                <span class="logo-separator">×</span>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM Research" class="logo-ibm">
+            </div>
+            <h1>Emerging Directions in Probabilistic Modeling</h1>
+            <p class="hero-subtitle">Methods and Scientific Applications</p>
+            <div class="hero-details">
+                <div class="detail-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                    <span>October 5–7, 2026</span>
+                </div>
+                <div class="detail-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    <span>New York City</span>
+                </div>
+                            </div>
+            <a href="#register" class="hero-cta">Apply to Attend</a>
+        </div>
+        <div class="hero-background"></div>
+    </header>
+
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">About the Workshop</h2>
+            <div class="about-content">
+                <p>This workshop brings together recent advances in probabilistic modeling, with a focus on emerging methods for representing, learning, and sampling complex probability distributions. Topics of interest include kernel and transport-based methods, discrete and structured generative models, conditional and constrained modeling, and new perspectives on density modeling and sampling.</p>
+                <p>The workshop also highlights scientific applications of these ideas, including molecular dynamics, inverse problems, climate and weather modeling, and related problems in the physical and life sciences. More broadly, it aims to bring together researchers from machine learning, statistics, applied mathematics, and computational science to discuss common ideas, emerging challenges, and new opportunities in modern probabilistic modeling.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="topics" class="section topics">
+        <div class="container">
+            <h2 class="section-title">Topics of Interest</h2>
+            <div class="topics-grid">
+                <div class="topic-card">
+                    <div class="topic-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg>
+                    </div>
+                    <h3>Kernel & Transport Methods</h3>
+                    <p>Optimal transport, kernel-based sampling, and flow-based approaches for distribution modeling</p>
+                </div>
+                <div class="topic-card">
+                    <div class="topic-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                    </div>
+                    <h3>Generative Models</h3>
+                    <p>Discrete and structured generative models, diffusion models, and normalizing flows</p>
+                </div>
+                <div class="topic-card">
+                    <div class="topic-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V10"></path><path d="M18 20V4"></path><path d="M6 20v-4"></path></svg>
+                    </div>
+                    <h3>Sampling & Density</h3>
+                    <p>MCMC methods, variational inference, and new perspectives on density estimation</p>
+                </div>
+                <div class="topic-card">
+                    <div class="topic-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 10c-.83 0-1.5-.67-1.5-1.5v-5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5v5c0 .83-.67 1.5-1.5 1.5z"></path><path d="M20.5 10H19V8.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"></path><path d="M9.5 14c.83 0 1.5.67 1.5 1.5v5c0 .83-.67 1.5-1.5 1.5S8 21.33 8 20.5v-5c0-.83.67-1.5 1.5-1.5z"></path><path d="M3.5 14H5v1.5c0 .83-.67 1.5-1.5 1.5S2 16.33 2 15.5 2.67 14 3.5 14z"></path><path d="M14 14.5c0-.83.67-1.5 1.5-1.5h5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5h-5c-.83 0-1.5-.67-1.5-1.5z"></path><path d="M15.5 19H14v1.5c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5z"></path><path d="M10 9.5C10 8.67 9.33 8 8.5 8h-5C2.67 8 2 8.67 2 9.5S2.67 11 3.5 11h5c.83 0 1.5-.67 1.5-1.5z"></path><path d="M8.5 5H10V3.5C10 2.67 9.33 2 8.5 2S7 2.67 7 3.5 7.67 5 8.5 5z"></path></svg>
+                    </div>
+                    <h3>Conditional & Constrained</h3>
+                    <p>Conditional generation, constrained optimization, and controlled sampling</p>
+                </div>
+                <div class="topic-card">
+                    <div class="topic-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle><circle cx="5" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="5" r="1"></circle><circle cx="19" cy="19" r="1"></circle><circle cx="5" cy="19" r="1"></circle><circle cx="19" cy="5" r="1"></circle></svg>
+                    </div>
+                    <h3>PDEs & Molecular Science</h3>
+                    <p>Probabilistic methods for PDEs, molecular simulation, biology, and free energy estimation</p>
+                </div>
+                <div class="topic-card">
+                    <div class="topic-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"></path></svg>
+                    </div>
+                    <h3>Climate & Weather</h3>
+                    <p>Probabilistic climate modeling, weather prediction, and uncertainty quantification</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="speakers" class="section speakers">
+        <div class="container">
+            <h2 class="section-title">Speakers</h2>
+            <p class="speakers-intro">We are excited to feature talks from leading researchers in probabilistic modeling, machine learning, and scientific applications.</p>
+            <div class="speakers-list">
+                <div class="speaker-card">
+                    <img src="images/speakers/david_alvarez_melis.jpg" alt="David Alvarez-Melis" class="speaker-photo">
+                    <div class="speaker-details">
+                        <h3>David Alvarez-Melis</h3>
+                        <p class="speaker-title">Assistant Professor</p>
+                        <p class="speaker-affiliation">Harvard SEAS & Microsoft Research</p>
+                    </div>
+                    <a href="https://dmelis.github.io/" target="_blank" class="speaker-link">Website</a>
+                </div>
+                <div class="speaker-card">
+                    <img src="images/speakers/marianne_arriola.jpg" alt="Marianne Arriola" class="speaker-photo">
+                    <div class="speaker-details">
+                        <h3>Marianne Arriola</h3>
+                        <p class="speaker-title">PhD Candidate</p>
+                        <p class="speaker-affiliation">Cornell University</p>
+                    </div>
+                    <a href="https://m-arriola.com/" target="_blank" class="speaker-link">Website</a>
+                </div>
+                <div class="speaker-card">
+                    <img src="images/speakers/clement_bonet.jpg" alt="Clément Bonet" class="speaker-photo">
+                    <div class="speaker-details">
+                        <h3>Clément Bonet</h3>
+                        <p class="speaker-title">Assistant Professor</p>
+                        <p class="speaker-affiliation">École Polytechnique, CMAP</p>
+                    </div>
+                    <a href="https://clbonet.github.io/" target="_blank" class="speaker-link">Website</a>
+                </div>
+                <div class="speaker-card">
+                    <img src="images/speakers/claire_boyer.jpg" alt="Claire Boyer" class="speaker-photo">
+                    <div class="speaker-details">
+                        <h3>Claire Boyer</h3>
+                        <p class="speaker-title">Professor</p>
+                        <p class="speaker-affiliation">Université Paris-Saclay</p>
+                    </div>
+                    <a href="https://www.imo.universite-paris-saclay.fr/~claire.boyer/" target="_blank" class="speaker-link">Website</a>
+                </div>
+                <div class="speaker-card">
+                    <img src="images/speakers/sitan_chen.jpg" alt="Sitan Chen" class="speaker-photo">
+                    <div class="speaker-details">
+                        <h3>Sitan Chen</h3>
+                        <p class="speaker-title">Assistant Professor</p>
+                        <p class="speaker-affiliation">Harvard University</p>
+                    </div>
+                    <a href="https://sitanchen.com/" target="_blank" class="speaker-link">Website</a>
+                </div>
+                <div class="speaker-card">
+                    <img src="images/speakers/yongxin_chen.jpg" alt="Yongxin Chen" class="speaker-photo">
+                    <div class="speaker-details">
+                        <h3>Yongxin Chen</h3>
+                        <p class="speaker-title">Associate Professor</p>
+                        <p class="speaker-affiliation">Georgia Tech & NVIDIA</p>
+                    </div>
+                    <a href="https://yongxin.ae.gatech.edu/" target="_blank" class="speaker-link">Website</a>
+                </div>
+                <div class="speaker-card">
+                    <img src="images/speakers/paula_cordero.jpg" alt="Paula Cordero Encinar" class="speaker-photo">
+                    <div class="speaker-details">
+                        <h3>Paula Cordero Encinar</h3>
+                        <p class="speaker-title">PhD Candidate</p>
+                        <p class="speaker-affiliation">Imperial College London & Oxford</p>
+                    </div>
+                    <a href="https://paulaoak.github.io/" target="_blank" class="speaker-link">Website</a>
+                </div>
+                <div class="speaker-card">
+                    <img src="images/speakers/carles_domingo.jpg" alt="Carles Domingo-Enrich" class="speaker-photo">
+                    <div class="speaker-details">
+                        <h3>Carles Domingo-Enrich</h3>
+                        <p class="speaker-title">Senior Researcher</p>
+                        <p class="speaker-affiliation">Microsoft Research</p>
+                    </div>
+                    <a href="https://cdenrich.github.io/" target="_blank" class="speaker-link">Website</a>
+                </div>
+                <div class="speaker-card">
+                    <img src="images/speakers/pierre_gentine.jpg" alt="Pierre Gentine" class="speaker-photo">
+                    <div class="speaker-details">
+                        <h3>Pierre Gentine</h3>
+                        <p class="speaker-title">Professor & Director NSF LEAP</p>
+                        <p class="speaker-affiliation">Columbia University</p>
+                    </div>
+                    <a href="https://gentinelab.eee.columbia.edu/" target="_blank" class="speaker-link">Website</a>
+                </div>
+                <div class="speaker-card">
+                    <img src="images/speakers/arthur_gretton.jpg" alt="Arthur Gretton" class="speaker-photo">
+                    <div class="speaker-details">
+                        <h3>Arthur Gretton</h3>
+                        <p class="speaker-title">Professor & Research Scientist</p>
+                        <p class="speaker-affiliation">UCL Gatsby Unit & Google DeepMind</p>
+                    </div>
+                    <a href="https://www.gatsby.ucl.ac.uk/~gretton/" target="_blank" class="speaker-link">Website</a>
+                </div>
+                <div class="speaker-card">
+                    <img src="images/speakers/tommi_jaakkola.jpg" alt="Tommi Jaakkola" class="speaker-photo">
+                    <div class="speaker-details">
+                        <h3>Tommi Jaakkola</h3>
+                        <p class="speaker-title">Professor</p>
+                        <p class="speaker-affiliation">MIT CSAIL</p>
+                    </div>
+                    <a href="https://people.csail.mit.edu/tommi/" target="_blank" class="speaker-link">Website</a>
+                </div>
+                <div class="speaker-card">
+                    <img src="images/speakers/yazid_janati.jpg" alt="Yazid Janati" class="speaker-photo">
+                    <div class="speaker-details">
+                        <h3>Yazid Janati</h3>
+                        <p class="speaker-title">PhD Researcher</p>
+                        <p class="speaker-affiliation">MBZUAI</p>
+                    </div>
+                    <a href="https://scholar.google.com/citations?user=JGor6XwAAAAJ" target="_blank" class="speaker-link">Scholar</a>
+                </div>
+                <div class="speaker-card">
+                    <img src="images/speakers/sifan_liu.jpg" alt="Sifan Liu" class="speaker-photo">
+                    <div class="speaker-details">
+                        <h3>Sifan Liu</h3>
+                        <p class="speaker-title">Assistant Professor</p>
+                        <p class="speaker-affiliation">Duke University</p>
+                    </div>
+                    <a href="https://liusf15.github.io/" target="_blank" class="speaker-link">Website</a>
+                </div>
+                <div class="speaker-card">
+                    <img src="images/speakers/kimia_nadjahi.jpg" alt="Kimia Nadjahi" class="speaker-photo">
+                    <div class="speaker-details">
+                        <h3>Kimia Nadjahi</h3>
+                        <p class="speaker-title">CNRS Research Faculty</p>
+                        <p class="speaker-affiliation">ENS Paris</p>
+                    </div>
+                    <a href="https://kimiandj.github.io/" target="_blank" class="speaker-link">Website</a>
+                </div>
+                <div class="speaker-card">
+                    <img src="images/speakers/kirill_neklyudov.jpg" alt="Kirill Neklyudov" class="speaker-photo">
+                    <div class="speaker-details">
+                        <h3>Kirill Neklyudov</h3>
+                        <p class="speaker-title">Researcher</p>
+                        <p class="speaker-affiliation">Anthropic & Mila</p>
+                    </div>
+                    <a href="https://necludov.github.io/" target="_blank" class="speaker-link">Website</a>
+                </div>
+                <div class="speaker-card">
+                    <img src="images/speakers/subham_sahoo.jpg" alt="Subham Sekhar Sahoo" class="speaker-photo">
+                    <div class="speaker-details">
+                        <h3>Subham Sekhar Sahoo</h3>
+                        <p class="speaker-title">Research Lead</p>
+                        <p class="speaker-affiliation">MBZUAI</p>
+                    </div>
+                    <a href="https://s-sahoo.com/" target="_blank" class="speaker-link">Website</a>
+                </div>
+                <div class="speaker-card">
+                    <img src="images/speakers/yair_schiff.jpg" alt="Yair Schiff" class="speaker-photo">
+                    <div class="speaker-details">
+                        <h3>Yair Schiff</h3>
+                        <p class="speaker-title">PhD Candidate</p>
+                        <p class="speaker-affiliation">Machine Learning</p>
+                    </div>
+                    <a href="https://yair-schiff.github.io/yair-schiff.github.io/" target="_blank" class="speaker-link">Website</a>
+                </div>
+                <div class="speaker-card">
+                    <img src="images/speakers/sherry_yang.jpg" alt="Sherry Yang" class="speaker-photo">
+                    <div class="speaker-details">
+                        <h3>Sherry Yang</h3>
+                        <p class="speaker-title">Assistant Professor & Staff Scientist</p>
+                        <p class="speaker-affiliation">NYU Courant & Google DeepMind</p>
+                    </div>
+                    <a href="https://sherryy.github.io/" target="_blank" class="speaker-link">Website</a>
+                </div>
+                <div class="speaker-card">
+                    <img src="images/speakers/soojung_yang.jpg" alt="Soojung Yang" class="speaker-photo">
+                    <div class="speaker-details">
+                        <h3>Soojung Yang</h3>
+                        <p class="speaker-title">Postdoctoral Researcher</p>
+                        <p class="speaker-affiliation">Stanford & Microsoft Research</p>
+                    </div>
+                    <a href="https://sites.google.com/view/soojungy/" target="_blank" class="speaker-link">Website</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COMMENTED OUT: Day-by-day schedule (to be restored later)
+    <section id="schedule" class="section schedule">
+        <div class="container">
+            <h2 class="section-title">Schedule</h2>
+            <div class="schedule-tabs">
+                <button class="tab-btn active" data-tab="day1">
+                    <span class="tab-day">Day 1</span>
+                    <span class="tab-date">Oct 5</span>
+                </button>
+                <button class="tab-btn" data-tab="day2">
+                    <span class="tab-day">Day 2</span>
+                    <span class="tab-date">Oct 6</span>
+                </button>
+                <button class="tab-btn" data-tab="day3">
+                    <span class="tab-day">Day 3</span>
+                    <span class="tab-date">Oct 7</span>
+                </button>
+            </div>
+
+            <div class="tab-content active" id="day1">
+                <div class="venue-badge">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    Flatiron Institute
+                </div>
+
+                <div class="session-block">
+                    <h3 class="session-title">Morning Session</h3>
+                    <div class="time-slot">
+                        <span class="time">9:00 AM</span>
+                        <span class="event">Registration & Coffee</span>
+                    </div>
+                    <div class="time-slot">
+                        <span class="time">9:30 AM</span>
+                        <span class="event">Opening Remarks</span>
+                    </div>
+                    <div class="speakers-grid">
+                        <div class="speaker-slot">
+                            <div class="speaker-time">9:45 AM</div>
+                            <div class="speaker-avatar">TBA</div>
+                            <div class="speaker-info">
+                                <span class="speaker-name">Speaker TBA</span>
+                                <span class="speaker-affiliation">Affiliation TBA</span>
+                            </div>
+                        </div>
+                        <div class="speaker-slot">
+                            <div class="speaker-time">10:30 AM</div>
+                            <div class="speaker-avatar">TBA</div>
+                            <div class="speaker-info">
+                                <span class="speaker-name">Speaker TBA</span>
+                                <span class="speaker-affiliation">Affiliation TBA</span>
+                            </div>
+                        </div>
+                        <div class="speaker-slot">
+                            <div class="speaker-time">11:15 AM</div>
+                            <div class="speaker-avatar">TBA</div>
+                            <div class="speaker-info">
+                                <span class="speaker-name">Speaker TBA</span>
+                                <span class="speaker-affiliation">Affiliation TBA</span>
+                            </div>
+                        </div>
+                        <div class="speaker-slot">
+                            <div class="speaker-time">12:00 PM</div>
+                            <div class="speaker-avatar">TBA</div>
+                            <div class="speaker-info">
+                                <span class="speaker-name">Speaker TBA</span>
+                                <span class="speaker-affiliation">Affiliation TBA</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="time-slot lunch">
+                    <span class="time">12:45 PM</span>
+                    <span class="event">Lunch Break</span>
+                </div>
+
+                <div class="session-block">
+                    <h3 class="session-title">Afternoon Session</h3>
+                    <div class="speakers-grid">
+                        <div class="speaker-slot">
+                            <div class="speaker-time">2:00 PM</div>
+                            <div class="speaker-avatar">TBA</div>
+                            <div class="speaker-info">
+                                <span class="speaker-name">Speaker TBA</span>
+                                <span class="speaker-affiliation">Affiliation TBA</span>
+                            </div>
+                        </div>
+                        <div class="speaker-slot">
+                            <div class="speaker-time">2:45 PM</div>
+                            <div class="speaker-avatar">TBA</div>
+                            <div class="speaker-info">
+                                <span class="speaker-name">Speaker TBA</span>
+                                <span class="speaker-affiliation">Affiliation TBA</span>
+                            </div>
+                        </div>
+                        <div class="speaker-slot">
+                            <div class="speaker-time">3:30 PM</div>
+                            <div class="speaker-avatar">TBA</div>
+                            <div class="speaker-info">
+                                <span class="speaker-name">Speaker TBA</span>
+                                <span class="speaker-affiliation">Affiliation TBA</span>
+                            </div>
+                        </div>
+                        <div class="speaker-slot">
+                            <div class="speaker-time">4:15 PM</div>
+                            <div class="speaker-avatar">TBA</div>
+                            <div class="speaker-info">
+                                <span class="speaker-name">Speaker TBA</span>
+                                <span class="speaker-affiliation">Affiliation TBA</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="time-slot poster">
+                    <span class="time">5:00 PM</span>
+                    <span class="event">Poster Session & Reception</span>
+                </div>
+            </div>
+
+            <div class="tab-content" id="day2">
+                <div class="venue-badge">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    Flatiron Institute
+                </div>
+
+                <div class="session-block">
+                    <h3 class="session-title">Morning Session</h3>
+                    <div class="time-slot">
+                        <span class="time">9:00 AM</span>
+                        <span class="event">Coffee</span>
+                    </div>
+                    <div class="speakers-grid">
+                        <div class="speaker-slot">
+                            <div class="speaker-time">9:30 AM</div>
+                            <div class="speaker-avatar">TBA</div>
+                            <div class="speaker-info">
+                                <span class="speaker-name">Speaker TBA</span>
+                                <span class="speaker-affiliation">Affiliation TBA</span>
+                            </div>
+                        </div>
+                        <div class="speaker-slot">
+                            <div class="speaker-time">10:15 AM</div>
+                            <div class="speaker-avatar">TBA</div>
+                            <div class="speaker-info">
+                                <span class="speaker-name">Speaker TBA</span>
+                                <span class="speaker-affiliation">Affiliation TBA</span>
+                            </div>
+                        </div>
+                        <div class="speaker-slot">
+                            <div class="speaker-time">11:00 AM</div>
+                            <div class="speaker-avatar">TBA</div>
+                            <div class="speaker-info">
+                                <span class="speaker-name">Speaker TBA</span>
+                                <span class="speaker-affiliation">Affiliation TBA</span>
+                            </div>
+                        </div>
+                        <div class="speaker-slot">
+                            <div class="speaker-time">11:45 AM</div>
+                            <div class="speaker-avatar">TBA</div>
+                            <div class="speaker-info">
+                                <span class="speaker-name">Speaker TBA</span>
+                                <span class="speaker-affiliation">Affiliation TBA</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="time-slot lunch">
+                    <span class="time">12:30 PM</span>
+                    <span class="event">Lunch Break</span>
+                </div>
+
+                <div class="session-block">
+                    <h3 class="session-title">Afternoon Session</h3>
+                    <div class="speakers-grid">
+                        <div class="speaker-slot">
+                            <div class="speaker-time">2:00 PM</div>
+                            <div class="speaker-avatar">TBA</div>
+                            <div class="speaker-info">
+                                <span class="speaker-name">Speaker TBA</span>
+                                <span class="speaker-affiliation">Affiliation TBA</span>
+                            </div>
+                        </div>
+                        <div class="speaker-slot">
+                            <div class="speaker-time">2:45 PM</div>
+                            <div class="speaker-avatar">TBA</div>
+                            <div class="speaker-info">
+                                <span class="speaker-name">Speaker TBA</span>
+                                <span class="speaker-affiliation">Affiliation TBA</span>
+                            </div>
+                        </div>
+                        <div class="speaker-slot">
+                            <div class="speaker-time">3:30 PM</div>
+                            <div class="speaker-avatar">TBA</div>
+                            <div class="speaker-info">
+                                <span class="speaker-name">Speaker TBA</span>
+                                <span class="speaker-affiliation">Affiliation TBA</span>
+                            </div>
+                        </div>
+                        <div class="speaker-slot">
+                            <div class="speaker-time">4:15 PM</div>
+                            <div class="speaker-avatar">TBA</div>
+                            <div class="speaker-info">
+                                <span class="speaker-name">Speaker TBA</span>
+                                <span class="speaker-affiliation">Affiliation TBA</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="time-slot poster">
+                    <span class="time">5:00 PM</span>
+                    <span class="event">Poster Session & Networking</span>
+                </div>
+            </div>
+
+            <div class="tab-content" id="day3">
+                <div class="venue-badge ibm">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    IBM One Madison
+                </div>
+
+                <div class="session-block">
+                    <h3 class="session-title">Morning Session (Half Day)</h3>
+                    <div class="time-slot">
+                        <span class="time">9:00 AM</span>
+                        <span class="event">Coffee</span>
+                    </div>
+                    <div class="speakers-grid">
+                        <div class="speaker-slot">
+                            <div class="speaker-time">9:30 AM</div>
+                            <div class="speaker-avatar">TBA</div>
+                            <div class="speaker-info">
+                                <span class="speaker-name">Speaker TBA</span>
+                                <span class="speaker-affiliation">Affiliation TBA</span>
+                            </div>
+                        </div>
+                        <div class="speaker-slot">
+                            <div class="speaker-time">10:15 AM</div>
+                            <div class="speaker-avatar">TBA</div>
+                            <div class="speaker-info">
+                                <span class="speaker-name">Speaker TBA</span>
+                                <span class="speaker-affiliation">Affiliation TBA</span>
+                            </div>
+                        </div>
+                        <div class="speaker-slot">
+                            <div class="speaker-time">11:00 AM</div>
+                            <div class="speaker-avatar">TBA</div>
+                            <div class="speaker-info">
+                                <span class="speaker-name">Speaker TBA</span>
+                                <span class="speaker-affiliation">Affiliation TBA</span>
+                            </div>
+                        </div>
+                        <div class="speaker-slot">
+                            <div class="speaker-time">11:45 AM</div>
+                            <div class="speaker-avatar">TBA</div>
+                            <div class="speaker-info">
+                                <span class="speaker-name">Speaker TBA</span>
+                                <span class="speaker-affiliation">Affiliation TBA</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="time-slot closing">
+                    <span class="time">12:30 PM</span>
+                    <span class="event">Closing Remarks & Lunch</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    END COMMENTED OUT SCHEDULE -->
+
+    <section id="organizers" class="section organizers">
+        <div class="container">
+            <h2 class="section-title">Organizers</h2>
+            <div class="organizers-grid">
+                <div class="organizer-card">
+                    <img src="images/organizers/mark_goldstein.jpg" alt="Mark Goldstein" class="organizer-photo">
+                    <h3>Mark Goldstein</h3>
+                    <p class="organizer-affiliation">Research Fellow, CCM<br>Flatiron Institute</p>
+                    <a href="https://marikgoldstein.github.io/" target="_blank" class="organizer-link">Website →</a>
+                </div>
+                <div class="organizer-card">
+                    <img src="images/organizers/louis_grenioux.jpg" alt="Louis Grenioux" class="organizer-photo">
+                    <h3>Louis Grenioux</h3>
+                    <p class="organizer-affiliation">Research Fellow, CCM<br>Flatiron Institute</p>
+                    <a href="https://h2o64.github.io/" target="_blank" class="organizer-link">Website →</a>
+                </div>
+                <div class="organizer-card">
+                    <img src="images/organizers/jiequn_han.jpg" alt="Jiequn Han" class="organizer-photo">
+                    <h3>Jiequn Han</h3>
+                    <p class="organizer-affiliation">Research Scientist, CCM<br>Flatiron Institute</p>
+                    <a href="https://users.flatironinstitute.org/~jhan/" target="_blank" class="organizer-link">Website →</a>
+                </div>
+                <div class="organizer-card">
+                    <img src="images/organizers/anna_korba.jpg" alt="Anna Korba" class="organizer-photo">
+                    <h3>Anna Korba</h3>
+                    <p class="organizer-affiliation">Assistant Professor<br>ENSAE/CREST</p>
+                    <a href="https://akorba.github.io/" target="_blank" class="organizer-link">Website →</a>
+                </div>
+                <div class="organizer-card">
+                    <img src="images/organizers/youssef_mroueh.jpg" alt="Youssef Mroueh" class="organizer-photo">
+                    <h3>Youssef Mroueh</h3>
+                    <p class="organizer-affiliation">Principal Research Scientist<br>IBM Research</p>
+                    <a href="https://research.ibm.com/people/youssef-mroueh" target="_blank" class="organizer-link">Website →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="venue" class="section venue">
+        <div class="container">
+            <h2 class="section-title">Venue</h2>
+            <div class="venue-grid">
+                <div class="venue-card">
+                    <div class="venue-image flatiron"></div>
+                    <div class="venue-info">
+                        <span class="venue-days">Days 1–2 (Oct 5–6)</span>
+                        <h3>Flatiron Institute</h3>
+                        <p class="venue-address">
+                            162 Fifth Avenue<br>
+                            New York, NY 10010
+                        </p>
+                        <p class="venue-description">The Flatiron Institute is the internal research division of the Simons Foundation, home to the Center for Computational Mathematics.</p>
+                    </div>
+                </div>
+                <div class="venue-card">
+                    <div class="venue-image ibm"></div>
+                    <div class="venue-info">
+                        <span class="venue-days">Day 3 (Oct 7)</span>
+                        <h3>IBM One Madison</h3>
+                        <p class="venue-address">
+                            One Madison Avenue<br>
+                            New York, NY 10010
+                        </p>
+                        <p class="venue-description">IBM's state-of-the-art research and innovation hub in the heart of Manhattan, featuring collaborative spaces and cutting-edge facilities.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="register" class="section register">
+        <div class="container">
+            <h2 class="section-title">Apply to Attend</h2>
+            <div class="register-content">
+                <div class="register-info">
+                    <h3>Registration Process</h3>
+                    <p>This workshop is limited to <strong>80 attendees</strong>. Due to space constraints, attendance is by application only. Organizers will review applications and notify selected participants.</p>
+
+                    <div class="register-details">
+                        <div class="register-item">
+                            <h4>What we're looking for</h4>
+                            <ul>
+                                <li>Researchers working on probabilistic modeling, machine learning, or related areas</li>
+                                <li>Scientists applying these methods to physical or life sciences</li>
+                                <li>Graduate students and postdocs with relevant research interests</li>
+                            </ul>
+                        </div>
+
+                        <div class="register-item">
+                            <h4>Poster Presentations</h4>
+                            <p>Attendees are encouraged to present posters showcasing their research. Indicate your interest in presenting when you apply.</p>
+                        </div>
+
+                        <div class="register-item">
+                            <h4>Important Dates</h4>
+                            <ul>
+                                <li><strong>Application Deadline:</strong> August 15, 2026</li>
+                                <li><strong>Notification:</strong> TBA</li>
+                                <li><strong>Workshop:</strong> October 5–7, 2026</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="register-form">
+                    <div class="form-cta">
+                        <h4>Ready to Apply?</h4>
+                        <p>Click below to open the application form. No Google account required.</p>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeGwYb9sS9SPiyIw0UmynfnZZwuhcXmStJ3OzOG-1EB9A6vxA/viewform" target="_blank" class="apply-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                            Open Application Form
+                        </a>
+                        <p class="deadline-note">Application deadline: <strong>August 15, 2026</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logos">
+                    <svg class="footer-logo" viewBox="0 0 240 50" xmlns="http://www.w3.org/2000/svg">
+                        <g fill="white">
+                            <path d="M0,5 C0,2 2,0 5,0 L12,0 L12,5 L5,5 L5,45 L12,45 L12,50 L5,50 C2,50 0,48 0,45 Z"/>
+                            <path d="M50,5 C50,2 48,0 45,0 L38,0 L38,5 L45,5 L45,45 L38,45 L38,50 L45,50 C48,50 50,48 50,45 Z"/>
+                            <circle cx="25" cy="25" r="12"/>
+                        </g>
+                        <text x="58" y="23" fill="white" font-family="Inter, sans-serif" font-size="20" font-weight="700" letter-spacing="2">FLATIRON</text>
+                        <text x="58" y="42" fill="white" font-family="Inter, sans-serif" font-size="12" font-weight="400" letter-spacing="4">INSTITUTE</text>
+                    </svg>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM Research" class="footer-logo">
+                </div>
+                <p class="footer-text">
+                    Emerging Directions in Probabilistic Modeling: Methods and Scientific Applications<br>
+                    October 5–7, 2026 | New York City
+                </p>
+                <p class="footer-contact">
+                    Questions? Contact the organizers at <a href="mailto:edpm.workshop@gmail.com">edpm.workshop@gmail.com</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
