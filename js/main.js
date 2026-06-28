@@ -36,23 +36,23 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Schedule Tab Switching
-    const tabBtns = document.querySelectorAll('.tab-btn');
-    const tabContents = document.querySelectorAll('.tab-content');
-
-    tabBtns.forEach(btn => {
-        btn.addEventListener('click', function() {
-            const targetTab = this.getAttribute('data-tab');
-
-            // Remove active class from all buttons and contents
-            tabBtns.forEach(b => b.classList.remove('active'));
-            tabContents.forEach(c => c.classList.remove('active'));
-
-            // Add active class to clicked button and corresponding content
-            this.classList.add('active');
-            document.getElementById(targetTab).classList.add('active');
-        });
-    });
+    // COMMENTED OUT: Schedule Tab Switching (schedule section is commented out in index.html)
+    // const tabBtns = document.querySelectorAll('.tab-btn');
+    // const tabContents = document.querySelectorAll('.tab-content');
+    //
+    // tabBtns.forEach(btn => {
+    //     btn.addEventListener('click', function() {
+    //         const targetTab = this.getAttribute('data-tab');
+    //
+    //         // Remove active class from all buttons and contents
+    //         tabBtns.forEach(b => b.classList.remove('active'));
+    //         tabContents.forEach(c => c.classList.remove('active'));
+    //
+    //         // Add active class to clicked button and corresponding content
+    //         this.classList.add('active');
+    //         document.getElementById(targetTab).classList.add('active');
+    //     });
+    // });
 
     // Smooth scroll for anchor links (enhancement for older browsers)
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
