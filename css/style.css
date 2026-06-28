@@ -280,7 +280,7 @@ body {
     filter: brightness(0) invert(1);
 }
 
-.hero-logos svg.logo-flatiron {
+.hero-logos img.logo-flatiron {
     height: 45px;
     width: auto;
 }
