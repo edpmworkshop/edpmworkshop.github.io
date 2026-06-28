@@ -24,8 +24,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const navMenu = document.querySelector('.nav-menu');
 
     navToggle.addEventListener('click', function() {
-        navMenu.classList.toggle('active');
+        const isOpen = navMenu.classList.toggle('active');
         navToggle.classList.toggle('active');
+        navToggle.setAttribute('aria-expanded', isOpen);
     });
 
     // Close mobile menu when clicking a link
@@ -33,6 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
         link.addEventListener('click', () => {
             navMenu.classList.remove('active');
             navToggle.classList.remove('active');
+            navToggle.setAttribute('aria-expanded', 'false');
         });
     });
 
