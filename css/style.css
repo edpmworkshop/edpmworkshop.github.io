@@ -851,9 +851,15 @@ body {
 }
 
 .venue-address {
+    display: block;
     color: var(--gray-600);
     font-size: 0.95rem;
     margin-bottom: 16px;
+    text-decoration: none;
+}
+
+.venue-address:hover {
+    text-decoration: underline;
 }
 
 .venue-description {
