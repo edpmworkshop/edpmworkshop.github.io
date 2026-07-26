@@ -668,7 +668,7 @@ body {
 .speaker-details h3 {
     font-size: 1.1rem;
     font-weight: 600;
-    color: var(--gray-800);
+    color: var(--primary);
     margin-bottom: 4px;
 }
 
@@ -751,7 +751,7 @@ body {
 .organizer-card h3 {
     font-size: 1.15rem;
     font-weight: 600;
-    color: var(--gray-800);
+    color: var(--primary);
     margin-bottom: 8px;
 }
 
