@@ -524,9 +524,11 @@ body {
 }
 
 .time-slot .time {
+    font-size: 0.875rem;
     font-weight: 600;
     color: var(--primary);
-    min-width: 100px;
+    flex: 0 0 120px;
+    white-space: nowrap;
 }
 
 .time-slot .event {
@@ -578,10 +580,13 @@ body {
 }
 
 .speaker-time {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 88px;
     font-size: 0.875rem;
     font-weight: 600;
     color: var(--primary);
-    min-width: 80px;
+    white-space: nowrap;
 }
 
 .speaker-avatar {
